@@ -1,0 +1,9 @@
+Link: https://coderbyte.com/results/Yossarian:First%20Reverse:Cpp
+
+Q: Have the function FirstReverse(str) take the str parameter being passed and return the string in reversed order. 
+For example: if the input string is "Hello World and Coders" then your program should return the string sredoC dna dlroW olleH. 
+Use the Parameter Testing feature in the box below to test your code with different arguments.
+
+C: I am unhappy with my solution. I went with the first solution that came into my head, which was to make a copy of the string
+and then build the reverse string by iterating over it backwards. This obviously comes at a cost of memory, so I will want to revisit
+this one later.
