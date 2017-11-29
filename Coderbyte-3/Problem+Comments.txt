@@ -1,0 +1,12 @@
+Link: https://coderbyte.com/results/Yossarian:Letter%20Changes:Cpp
+
+Q: Have the function LetterChanges(str) take the str parameter being passed and modify it using the following algorithm. 
+Replace every letter in the string with the letter following it in the alphabet (ie. c becomes d, z becomes a). 
+Then capitalize every vowel in this new string (a, e, i, o, u) and finally return this modified string. 
+Use the Parameter Testing feature in the box below to test your code with different arguments.
+
+C: This one was trickier than the last. I immediately realized I could use the ASCII representation of characters to add 1 to
+a letter to make it the next letter in the alphabet. Then I had to handle the wraparound (from z/Z to a/A). The main issue I had was 
+a false assumption that I would only be dealing with letters. The input strings could have operators or whitespace in them, that were
+to remain unchanged. As they are also represented in ASCII, my intial approach changed them too. With as many conditional branches as I
+have, I cannot help but wonder if there would be a more concise approach.
